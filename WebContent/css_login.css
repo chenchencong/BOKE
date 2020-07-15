@@ -1,0 +1,236 @@
+
+		   a:link{
+		   	color:#757575;
+		   	text-decoration:none;
+		   }
+		   a:hover{
+		   	color:#757575;
+		   }
+		     a.f4a1:hover {
+		   	    
+		   		color:#757575;
+		   	
+		   }
+		    a.f4a2:hover {
+		   	    
+		   		color:#757575;
+		   	
+		   }
+		   a:visited{
+		   	color:#757575;
+		   }
+		 
+			body{
+				background-color: #f5f5f5;
+				color:#757575;
+				height:100%;
+				font-size:12px;
+				font-family: arial,"Hiragino Sans GB","Microsoft YaHei","微軟正黑體","儷黑 Pro",sans-serif;
+			}
+			div,h4{
+				margin: 0;
+				padding: 0;
+			}
+			.outer{
+				width:100%;
+				height:100%;
+				margin-top: -20px;
+				
+				
+				
+			}
+			.out {
+				padding-top: 17px;
+                width: 100%;
+                min-width: 380px;
+                 min-height: 420px;
+              }
+			.out{
+				width:68%;
+				min-height:550px;
+				background-color:#fff;
+				margin:0 auto ;
+				position: relative;
+				
+			}
+			.f1{
+				width:100%;
+				height:auto;
+				
+			}
+				
+			
+			.f112{
+				width:100%;
+				height:auto;
+			}
+			.f112h4 {
+                font-size: 30px;
+                color:black;
+                font-weight: 400;
+                padding-top: 18px;
+                
+                }
+			h4{
+				display: block;
+			  text-align: center;
+				
+                
+                
+			}
+			
+			.f111{
+				margin:0 auto ;
+				position: relative;
+				width:50px;
+				height:50px;
+				padding-top: 40px; 
+				
+			}
+			img{
+				width:50px;
+				height: 50px;
+			}
+			
+			
+			
+			
+			.f2{
+				width:100%;
+				height:auto;
+				margin-bottom: 40px;
+				
+				
+			}
+			.f21{
+				width:100%;
+				margin-top: 35px;
+				
+				
+				
+			}
+			.f22{
+				width:100%;
+				margin-top: 13px;
+				
+				
+				
+				
+				
+			}
+			.f23{
+				width:358px;
+				height: 50px;
+				margin-top: 10px;
+				text-decoration: none;
+				margin:0 auto ;
+				position: relative;
+				
+				
+				
+				
+			}
+			label{
+				width:356px;
+				height: 48px;
+				cursor: default;
+				
+				
+				}
+			input{
+				background: 0;
+			   
+			    border: 0 none;
+			    
+			    outline: none;
+							
+				}
+						
+			
+               .lab {
+			    display: block;
+			    margin-bottom: 14px;
+			    padding: 0;
+			    
+			    border: 1px solid #e0e0e0;
+			    
+			    margin:0 auto ;
+				position: relative;
+			}
+			.labs{
+					
+					display: block;
+				    margin-bottom: 14px;
+				    padding: 0;
+	                border: 1px solid #54ade7;
+				    margin:0 auto ;
+					position: relative;
+				}
+			.labs input {
+			    width: 326px;
+			    height: 22px;
+			    line-height: 22px;
+			    padding: 13px 16px 13px 14px;
+			    display: block;
+			}
+			
+			.lab input {
+			    width: 326px;
+			    height: 22px;
+			    line-height: 22px;
+			    padding: 13px 16px 13px 14px;
+			    display: block;
+			}
+          
+             .sub{
+				    background-color: #008ad4;
+				    width: 100%;
+				    height: 50px;
+				    line-height: 50px;
+				    display: block;
+				    margin-bottom: 14px;
+				    text-align: center;
+				    font-size: 14px;
+				    color: #fff;
+				    cursor: pointer;
+				}
+				.f3{
+					
+					width:100%;
+					text-align: center;
+					margin-top: 50px;
+					
+				}
+				.f4{
+					width:100%;
+					text-align: center;
+				}
+				.x{
+					font-size:43px ;
+					font-family: "bookman old style";
+				}
+				.err_tip{
+					width:326px;
+					color:#db0909;
+					vertical-align: middle;
+					margin: 0 auto;
+					position: relative;
+					display: none;
+					padding-bottom: 14px;
+				}	
+				.icon_error{
+					width:14px;
+					height:14px;
+					align-content: flex-start;
+					display: inline-block;
+					vertical-align:middle;
+					background: url(https://account.xiaomi.com/static/res/f234829/account-static/respassport/acc-2014/img/sprite_login.gif) no-repeat
+				}
+				.error_con{
+					float: left;
+				}
+				.bu{
+					margin-bottom: 30px;
+				}
+				
+		

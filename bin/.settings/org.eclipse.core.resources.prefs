@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//WebContent/index.css=UTF-8
+encoding//WebContent/index.jsp=UTF-8
+encoding//WebContent/login.jsp=UTF-8
+encoding//WebContent/register.jsp=UTF-8
+encoding//WebContent/showboke.jsp=UTF-8
+encoding//WebContent/userindex.css=UTF-8
+encoding//WebContent/userindex.jsp=UTF-8
+encoding//src/com/etc/action/UserAction.java=UTF-8
+encoding//src/com/etc/dbutil/DBManager.java=UTF-8
+encoding//src/com/etc/service/impl/UserServiceImpl.java=UTF-8
+encoding/<project>=UTF-8

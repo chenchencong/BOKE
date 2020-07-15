@@ -1,0 +1,317 @@
+	
+		   a:link{
+		   	color:#333;
+		   	font-weight: bold;
+		   	text-decoration:none;
+		   }
+		   a:visited{
+		   	font-weight: bold;
+		   	color:#333 ;
+		   }
+		   a.f4a1:link{
+		   	font-weight: normal;
+		   	
+		   }
+		   a.f4a2:link{
+		   	font-weight: normal;
+		   	
+		   }
+		     a.f4a1:hover {
+		   	    	font-weight:normal;
+		   		color:#757575;
+		   	
+		   }
+		    a.f4a2:hover {
+		   	    font-weight: normal;
+		   		color:#757575;
+		   	
+		   }
+		   a:visited{
+		   	font-weight: normal;
+		   	color:#757575;
+		   }
+		 
+			body{
+				background-color: #f5f5f5;
+				color:#757575;
+				height:100%;
+				font-size:12px;
+				font-family: arial,"Hiragino Sans GB","Microsoft YaHei","微軟正黑體","儷黑 Pro",sans-serif;
+			}
+			div,h4{
+				margin: 0;
+				padding: 0;
+			}
+			.outer{
+				width:100%;
+				height:100%;
+				margin-top: -20px;
+			}
+			.out {
+				padding-top: 17px;
+              }
+			.out{
+				width:68%;
+				min-height:640px;
+				background-color:#fff;
+				margin:0 auto ;
+				position: relative;
+				
+			}
+			.f1{
+				width:100%;
+				height:auto;
+				
+			}
+			.f112{
+				width:100%;
+				height:auto;
+			}
+			.f112h4 {
+                font-size: 30px;
+                color:black;
+                font-weight: normal;
+                padding-top: 18px;
+                
+                }
+			h4{
+				display: block;
+			  text-align: center;
+			}
+			
+			.f111{
+				margin:0 auto ;
+				position: relative;
+				width:50px;
+				height:50px;
+				/* padding-top: 40px; */
+				
+			}
+			img{
+				width:50px;
+				height: 50px;
+			}
+			
+			.f21{
+				width:100%;
+				margin-top: 35px;
+				margin-bottom: 13px;
+			}
+			.f22{
+				width:100%;
+				margin-top: 0px;
+				margin-bottom: 13px;
+				
+			}
+			.f23{
+				width:332px;
+				height: 42px;
+				
+				text-decoration: none;
+				margin:0 auto ;
+				position: relative;
+			}
+			label{
+				
+				cursor: default;
+				display: block;
+			    
+			    padding: 0px;
+			    height: 42px;
+			    border: 1px solid #e0e0e0;
+			    
+			    margin:0 auto ;
+				position: relative;
+				 
+			    line-height: 22px;
+			    
+			    display: block;
+				
+				}
+			
+			.tel{
+				width: 310px;
+			    height: 20px;
+				background: 0;
+			   
+			    border: 0 none;
+			    
+			    outline: none;
+			    padding: 10px;
+							
+				}
+			
+             .sub{
+				    width: 332px;
+				    height: 42px;
+				    line-height: 40px;
+				    display: block;
+				     margin-top: 10px;
+				    text-align: center;
+				    font-size: 14px;
+				    color: #fff;
+				    cursor: pointer;
+				    background:  #008ad4;
+			   
+			        border: 0 none;
+			    
+			        outline: none;
+			     } 
+				
+				.f3{
+					
+					width:100%;
+					
+					margin-top: 50px;
+					
+				}
+				.f4{
+					width:100%;
+					text-align: center;
+				}
+				.x{
+					font-size:43px ;
+					font-family: "bookman old style";
+				}
+			.f21span {
+			    height: 40px;
+			    padding-left: 14px;
+			    line-height: 40px;
+			    display: inline-block;
+			    vertical-align: middle;
+			    border: 1px solid #e8e8e8;
+			    color: #555;
+			    cursor: pointer;
+			    margin: 0 auto;
+			    position: relative;
+			    
+			    
+			}
+			.tt{
+				
+				float:left;
+			    width: 275px;
+			    border-right: 1px solid #e8e8e8;
+			    cursor: pointer;
+				
+			}
+			.f21i{
+				float: right;
+			    background: url(https://account.xiaomi.com/static/res/0eeaaed/passport/oauth/images/icon_user.png);
+			    width: 16px;
+			    height: 16px;
+			    margin: 11px 12px 0 12px;
+				
+			}	
+			.center{
+				width:332px;
+				
+				margin: 0 auto;
+				position: relative;
+				padding: 0px;
+			}
+				
+			 .code{
+				width: 170px;
+				height: 20px;
+				
+				background: 0;
+			   padding: 10px;
+			    border: 0 none;
+			    
+			    outline: none;
+			    
+				
+			}
+			.img{
+				width: 125px;
+				height: 42px;
+				margin-left: 7px;
+				float: right;
+				
+			}
+			.ss{
+				margin-bottom: 20px;
+				width:332px;
+				height: 42px;
+				
+			}
+			.lab1s{
+				width:332px;
+				border: 1px solid #54ade7;
+			}
+			.lab1{
+				width:332px;
+				
+				
+				
+			}
+			.lab2{
+				width:192px;
+				float: left;
+				
+				
+				
+			}
+			.lab2s{
+				width:192px;
+				float: left;
+				border: 1px solid #54ade7;
+			}
+			.hli{
+				width:305px;
+				height: 40px;
+				padding: 0 10px;
+				line-height:39px;
+				color:#000;
+				border-bottom: 1px solid #e0e0e0;
+				cursor:pointer;
+				float:left;
+			}
+			.changyong{
+				background: #fcdecc;
+				padding-left:10px;
+				margin-bottom: 6px;
+				line-height: 30px;
+				color:#ef5b00;
+				
+				
+			}
+			.hsp{
+				width:21px;
+				height: 39px;
+				float:right;
+				min-width: 20%;
+				color:#9d9d9d;
+				text-align:right;
+				padding-right: 7px;
+				
+			}
+				.err_tip{
+					width:332px;
+					color:#db0909;
+					vertical-align: middle;
+					margin: 0 auto;
+					position: relative;
+					display: none;
+					padding-bottom: 10px;
+					
+					
+				}	
+				.icon_error{
+					width:14px;
+					height:14px;
+					align-content: flex-start;
+					display: inline-block;
+					vertical-align:middle;
+					background: url(https://account.xiaomi.com/static/res/f234829/account-static/respassport/acc-2014/img/sprite_login.gif) no-repeat
+					
+					
+				}
+				.error_con{
+					float: left;
+			
+				}
+				
+				
+		

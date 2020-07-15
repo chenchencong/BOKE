@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<!-- package属性指定实体类所在的包名 -->
+<hibernate-mapping package="com.etc.entity">
+
+	<!-- name属性指定类名  table属性指定表名 -->
+	<class name="Message" table="Message" >
+
+		<!-- id标签指定主键列信息(Object Identifier)，name指定主键列对应的属性名，column指定主键列的字段名 -->
+		<id name="messageid" column="messageid">
+			<generator class="native"/>
+		</id>
+
+		<!-- property标签指定非主键列信息 -->
+			
+		<property name="content" column="content"/>
+		<property name="sendid" column="sendid"/>	
+		<property name="acceptid" column="acceptid"/>
+		<!-- 多对一 -->
+		 <!-- <many-to-one name="user" class="User" column="userid" ></many-to-one> -->
+		
+		
+   
+
+	</class>
+
+</hibernate-mapping>

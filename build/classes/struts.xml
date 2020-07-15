@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<constant name="struts.i18n.encoding" value="utf-8"></constant>
+	
+	
+    <package name="default" namespace="/" extends="struts-default">
+        
+      
+         
+    	<interceptors>
+    		
+    		<!-- 定义拦截器栈 -->
+    		<interceptor-stack name="myStack">
+               
+	       		
+	       		<interceptor-ref name="defaultStack"/>
+	       		
+    		</interceptor-stack>
+    		
+    	</interceptors>
+    	
+    	<default-interceptor-ref name="myStack"/>
+     
+     	<default-action-ref name="default"></default-action-ref>
+      <!--    <interceptors>
+         <interceptor name="myinterceptor" class="com.etc.interceptor.myinterceptor"></interceptor>
+          <interceptor-stack name="stack">
+         	<interceptor-ref name="defaultStack"/>
+         	<interceptor-ref name="myinterceptor"/>
+          </interceptor-stack>
+        </interceptors> -->
+         
+       
+        
+        <action name="user_*" class="userAction" method="{1}" >
+    	     
+    		<result type="redirect" name="success" >${targetPage}</result>
+    		<result name="error">${targetPage}</result>
+    		
+    	</action>
+    	  
+    	<action name="ValcodeAction" class="valcodeAction">
+    	    	<result type="stream">
+       			<param name="contentType">image/jpeg</param>
+       			<param name="inputName">inputStream</param>  
+        	    </result>
+    	</action>
+    	
+        <action name="data_*" class="dataAction" method="{1}">
+             <result type="redirect" name="success">${targetPage}</result>
+              <result name="error">${targetPage}</result>
+        </action>
+    <!-- 	<action name="uidrop" class="com.etc.action.UserAction" method="uidrop">
+    	    <interceptor-ref name="stack"></interceptor-ref>
+    	    <result name="success" >userindex.jsp</result>
+    	    <result name="login" >login.jsp</result>
+    	</action> -->
+    	 <action name="comment_*" class="commentAction" method="{1}">
+             <result type="redirect" name="success">${targetPage}</result>
+              <result name="error">${targetPage}</result>
+        </action>
+        <action name="message_*" class="messageAction" method="{1}">
+             <result type="redirect" name="success">${targetPage}</result>
+              <result name="error">${targetPage}</result>
+        </action>
+         <action name="admin_*" class="adminAction" method="{1}">
+             <result type="redirect" name="success">${targetPage}</result>
+              <result name="error">${targetPage}</result>
+        </action>
+
+    </package>
+    
+    
+    
+</struts>
